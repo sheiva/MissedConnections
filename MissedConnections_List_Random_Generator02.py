@@ -56,7 +56,7 @@ def overwrite_List(tmpList):
 		# tmpList = str(MissedList)
 		#overwrite the whole list with new variable inserted into embedded list
 		tmpFile2.write(tmpList)
-		# tmpFile.close()
+		tmpFile2.close()
 		#print tmpList
 
 
@@ -102,4 +102,5 @@ def print_MissedList ():
 #print_random_quote()
 #print_MissedList()
 print_random_quote_fromFile()
-tmpFile2.close()
+#tmpFile.close()
+#tmpFile2.close()
