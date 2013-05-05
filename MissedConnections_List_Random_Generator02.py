@@ -80,8 +80,7 @@ def print_random_quote_fromFile():
 			print tmpList
 			return tmpList
 			overwrite_List(tmpList)
-
-			# tmpFile.close()
+			tmpFile.close()
 			# for line in tmpFile2:
 			# 	tmpFile2.write(tmpList)
 			# 	tmpFile2.close()
